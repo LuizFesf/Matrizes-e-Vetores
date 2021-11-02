@@ -6,6 +6,7 @@ int main()
     char frase[200];
     int palavras=1;
 
+    printf("Esse programa vai ler a frase que voce digitar, contar e mostrar quantas palavras a frase digitada tem\n\n");
     printf("Digite uma frase: ");
     fgets(frase,200,stdin);
 

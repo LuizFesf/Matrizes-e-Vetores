@@ -6,6 +6,7 @@ int main()
     char frase[200];
     int i;
 
+    printf("Esse programa ira colocar cada palavra da frase em uma linha diferente\n\n");
     printf("Digite uma frase: ");
     fgets(frase,200,stdin);
     printf("\n");
@@ -19,8 +20,6 @@ int main()
         else
             printf("%c",frase[i]);
     }
-    printf("\n");
 
     return 0;
 }
-

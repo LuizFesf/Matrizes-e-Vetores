@@ -7,6 +7,7 @@ int main()
    char frase[200];
    int i, f;
 
+   printf("Esse programa ira inverter a frase digitada. exe: Ola, mundo = odnum ,alO\n\n");
    printf("Digite uma frase: ");
    fgets(frase,200,stdin);
 

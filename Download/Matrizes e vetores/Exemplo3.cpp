@@ -6,6 +6,7 @@ int main()
     char frase[200], palavra[200];
     int i, j=0, x=0;
 
+    printf("Esse programa se comportara como um virus, ele ira duplicar as palavras digitadas na frase\n\n");
     printf("Digite uma frase: ");
     fgets(frase,200,stdin);
     printf("\n");

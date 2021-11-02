@@ -5,7 +5,8 @@ int main()
 {
     char frase[200];
     int i;
-
+    
+    printf("Esse programa vai ler a frase que voce digitar e ira substituir as vogais por asterisco (a = *)\n\n");
     printf("Digite uma frase: ");
     fgets(frase,200,stdin);
 
@@ -17,7 +18,7 @@ int main()
             frase[i] = '*';
         }
     }
-     printf("\n%s\n",frase);
+     printf("\n%s",frase);
 
     return 0;
 }
