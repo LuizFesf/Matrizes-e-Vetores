@@ -1,2 +1,2 @@
 # Matrizes e Vetores
- Traabalho de matrizes e vetores
+ Conhecendo um pouco sobre matrizes e vetores em C
